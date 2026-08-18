@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  background-color: #f8fafc !important;
+  color: #0f172a;
+}
+
+.kanban-column {
+  background-color: #f1f5f9;
+  border-radius: 12px;
+  min-height: 480px;
+}
+
+.task-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 10px;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08) !important;
+}
+
+.badge-low {
+  background-color: #e2e8f0;
+  color: #475569;
+}
+
+.badge-medium {
+  background-color: #fef3c7;
+  color: #d97706;
+}
+
+.badge-high {
+  background-color: #fee2e2;
+  color: #dc2626;
+}
